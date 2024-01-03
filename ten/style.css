@@ -1,0 +1,36 @@
+*{
+    margin :0;
+    border :0;
+}
+.mainwrapper{
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap: 1vh;
+    background-color: black;
+    height: 100vh;
+}
+
+
+.columnwrappers1,
+.columnwrappers2,
+.columnwrappers3,
+.columnwrappers4{
+    display: grid;
+    grid-template-rows:repeat(autofill,1fr);
+    grid-gap: 1vh;
+  
+    
+}
+.items{
+    
+    background-color: dodgerblue;
+    border: 1px solid rgb(255, 222, 7);
+    border-radius: 8px;
+    padding: 1em;
+    font: caption;
+    font-style: italic;
+    color: aliceblue;
+
+}
+

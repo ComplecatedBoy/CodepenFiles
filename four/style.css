@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    border:0px;
+}
+
+article,
+header,
+footer,
+section,
+aside,
+figure,
+hgroup,
+menu,
+nav{
+    display: block;
+}
+
+h2
+{
+    font:  24px Georgia;
+    margin:0 0 10px 0 ;
+}
+
+h3{
+    
+    margin: 0 0 8px 0;
+}
+
+p{
+    margin:0 0 20px 0;
+}
+
+#divstart{
+    width: 70%;
+    margin: 60px auto;
+    padding: 20px;
+    background: #eee;
+    overflow: hidden;
+}
+
+#sidebar{
+    width: 35%;
+    float: left;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar ul li a {
+    color: #900;
+    text-decoration: none;
+    padding: 3px 0;
+    
+}
+
+@media all and ( max-width:1004px) and (min-width:600){
+#sidebar ul li a::before {
+    content:url(google.com);
+    font-size: 10px;
+    font-style:italic;
+    color: black;
+}}
+
+@media all and ( min-width:1004px){
+    #sidebar ul li a:after {
+        content:"("attr(fff)")";
+        font-size: 10px;
+        font-style:italic;
+        color: black;
+}}
+
+ @media all and ( min-width:1004px){
+        #sidebar ul li a:after {
+            content:"("attr(fff)")";
+            font-size: 10px;
+            font-style:italic;
+            color: black;
+        }
+}
+
+#maincontaint{
+    width: 65%;
+    float: right;
+}

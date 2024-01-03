@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+Body .wrapper{
+    text-indent: 2em;
+  
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+}
+.navbar{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(188, 241, 234, 0.466);
+    width: 20vw;
+    height: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+   
+ 
+}
+.subwrapper{
+    background-color: rgb(253, 253, 255);
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 2;
+    flex-shrink: 3;
+    width:100%;
+}
+.Header{
+    height: 20%;
+}
+.Section{
+    height: 65%;
+}
+.Footer{
+    height: 15%;
+}
+header{
+    background-color: rgba(52, 2, 98, 0.812);
+}
+section{
+    background-color: #e9c2c2c9;
+}
+footer{
+    background-color: rgba(6, 3, 3, 0.931);
+}
+
+h1, h2{
+    margin-top: 2em;
+    font-weight: 900;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+    color:rgba(30, 6, 6, 0.895)
+}
+h2{
+    margin-top:.9em;
+    font-weight: 300;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: .3em;
+    color: rgb(3, 3, 100);
+    line-height: 0em;
+}
+
+ header h2,footer h2 {
+   
+
+    color: aliceblue;
+}
+

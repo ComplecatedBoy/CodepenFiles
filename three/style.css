@@ -1,0 +1,80 @@
+*{
+   border:0;
+   margin: 0;
+}
+  html,
+  body,
+  div,
+p ,hgroup
+ {
+
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-display: block;
+
+}
+body{
+    background-color: aliceblue;
+}
+#main_div{
+   
+    top: 50px;
+    width: 70%;
+    margin: 15px auto;
+    overflow:none;
+
+}
+.sub_div{
+    margin-top: 1rem;
+    padding: 10px;
+    
+   border:2px solid yellow;
+   color: white;
+   background-color: blueviolet;
+   border-radius: 15px;
+   height: fit-content;
+   overflow-y: hidden;
+
+}
+img{
+     width: 300px;
+       height:250px;
+       margin: 5px;
+       margin: 10px 10px 0 20px;
+       border-radius: 5px solid rgb(249, 4, 4);
+}
+
+ p{
+    text-shadow: 1px;
+    text-align: left; 
+    text-indent: 2em;
+  
+    color: white;
+}
+.first_image ,.third_image ,.fifth_image{
+    float: right;
+  
+}
+.second_image,.fourth_image{
+    float: left;
+}
+h1{
+    float:right;
+}
+#p1,#p3,#p5{
+    text-align: right;
+}
+span{
+    text-align: center;
+    font: weight 900px;
+    font-size: 1cm;
+    text-shadow: 10px;
+    margin: 0px 4cm 1em 4cm;
+}
+
+
+
+
+
